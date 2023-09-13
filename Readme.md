@@ -1,17 +1,17 @@
-### virutal Environment Create
+### 1. virutal Environment Create
 python3 -m venv venv
 
-### Activate Virtual Environment
+### 2. Activate Virtual Environment
 source venv/bin/activate
 
-### package installation
+### 3. package installation
 pip install -r requirements.txt
 
-### Makemigrations and Migrate
+### 4. Makemigrations and Migrate
 python manage.py makemigrations
 python manage.py migrate
 
-### SuperUser Create
+### 5. SuperUser Create
 python manage.py createsuperuser
 
 ### Run Server
